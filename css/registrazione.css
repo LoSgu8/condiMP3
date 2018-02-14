@@ -1,0 +1,35 @@
+/* 
+    Created on : 13-feb-2018, 21.27.23
+    Author     : Giacomo Sguotti
+*/
+
+h1{
+    text-align: center;
+}
+
+/* registration Box */
+label{
+    font-size: 24px;
+}
+
+#registration-box{
+    border:1px solid black;
+    text-align: center;
+    background-color: #d6edff;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 50%;;
+}
+
+input{
+    width: 200px;
+    font-size:20px;
+    margin-bottom: 2%;
+}
+
+button{
+    font-size: 22px;
+    background-color: #ffe74c;
+    border: 1px solid black;
+    border-radius: 5px;
+}

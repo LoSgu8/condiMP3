@@ -1,0 +1,47 @@
+/* 
+    Created on : 13-feb-2018, 19.04.47
+    Author     : Giacomo Sguotti
+*/
+html{
+    background-color:  #f6f6f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-heading{
+    color: #c10000;
+}
+
+/* Navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35a7ff;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #f2f0f0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {       /*li hover non attivi */
+    background-color: #f2f0f0;
+    color: #193d5a;
+}
+li a:hover {
+    text-decoration: none;
+}
+
+.right{
+    float:right;
+}
+/* End of navigation bar */
